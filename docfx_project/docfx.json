@@ -4,45 +4,49 @@
       "src": [
         {
           "files": [
-            "src/**.cs"
+            "src/**.csproj"
           ]
         }
       ],
-      "dest": "api"
+      "dest": "api",
+      "includePrivateMembers": false,
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false,
+      "namespaceLayout": "flattened"
     }
   ],
   "build": {
-    "globalMetadata": {
-      "_appTitle": "PLATEAU-UC22-023-Pedestrian-Simulation-Result-Viewer",
-      "_appFooter": "PLATEAU-UC22-023-Pedestrian-Simulation-Result-Viewer",
-      "_enableSearch": true
-    },
     "content": [
       {
         "files": [
-          "toc.yml",
-          "index.md"
+          "api/**.yml",
+          "api/index.md"
         ]
       },
       {
-        "src": "api",
         "files": [
-          "*.yml"
-        ],
-        "dest": "api"
-      },
-      {
-        "src": "articles",
-        "files": [
+          "articles/**.md",
+          "articles/**/toc.yml",
           "toc.yml",
           "*.md"
         ]
-      },
+      }
     ],
     "resource": [
       {
         "files": [
-          "doc/**"
+          "images/**"
+        ]
+      }
+    ],
+    "overwrite": [
+      {
+        "files": [
+          "apidoc/**.md"
+        ],
+        "exclude": [
+          "obj/**",
+          "_site/**"
         ]
       }
     ],
