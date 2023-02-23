@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0fd96308-6672-4b1c-8027-3e66c952c2de" name="Default Changelist" comment="" />
+    <list default="true" id="0fd96308-6672-4b1c-8027-3e66c952c2de" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/docfx.json" beforeDir="false" afterPath="$PROJECT_DIR$/docfx.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
