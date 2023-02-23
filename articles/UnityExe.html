@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>使い方 | PLATEAU-UC22-023　歩行シミュレーション結果アセット </title>
+      <title>Unity実行ファイルの作成 | PLATEAU-UC22-023　歩行シミュレーション結果アセット </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="使い方 | PLATEAU-UC22-023　歩行シミュレーション結果アセット ">
+      <meta name="title" content="Unity実行ファイルの作成 | PLATEAU-UC22-023　歩行シミュレーション結果アセット ">
     
       <link rel="shortcut icon" href="../favicon.ico">
       <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -76,46 +76,19 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="使い方">使い方</h1>
+<h1 id="unity実行ファイルの作成">Unity実行ファイルの作成</h1>
 
-<p>ここでは、歩行シミュレーション結果アセットの使い方を記載します。</p>
-<h2 id="実行準備">実行準備</h2>
+<p>ここでは、Unityエディタから実行ファイル（EXEファイル）を作成する方法を記載します。</p>
+<h2 id="アプリケーションのビルド">アプリケーションのビルド</h2>
 <ol>
-<li>「PLATEAU-UC22-023-Pedestrian-Simulation-Result-Viewer.zip」内にある、「simulation-result」内にある下記6ファイルを、「Assets」と同じディレクトリに格納してください。
-<img src="../images/folder-copy.png" alt=""></li>
-</ol>
-<ul>
-<li>平日_平常時</li>
-<li>平日_イベント実施・広告設置時</li>
-<li>平日_イベント実施・広告非設置時</li>
-<li>土日祝日_平常時</li>
-<li>土日祝日_イベント実施・広告設置時</li>
-<li>土日祝日_イベント実施・広告非設置時</li>
-</ul>
-<ol start="2">
-<li><p>また、「simulation-result」内には「simulation-log.zip」が格納されているので同ファイルを併せて解凍してください。</p>
+<li><p>Unityエディタの画面から、「File」&gt;「Build Settings」を選択します。
+<img src="../images/build-settings.png" alt=""></p>
 </li>
-<li><p>「simulation-log.zip」を解凍すると、下記6ファイルが含まれています。下記ファイルを1. で格納したディレクトリに格納してください。</p>
+<li><p>「Build Settings」の画面から、「Build」を実行すると、Windowsデスクトップ版でのアプリケーションの実行ファイル（EXEファイル）が作成されます。
+必要に応じて、別形式（スマートフォン対応等）の作成も可能です。
+<img src="../images/build-execute.png" alt=""></p>
 </li>
 </ol>
-<ul>
-<li>agent_log_平日_平常時.csv　（-&gt; 「平日_平常時」直下に格納してください。）</li>
-<li>agent_log_平日_イベント実施・広告設置時.csv　（-&gt; 「平日_イベント実施・広告設置時」直下に格納してください。）</li>
-<li>agent_log_平日_イベント実施・広告非設置時.csv　（-&gt; 「平日_イベント実施・広告非設置時」直下に格納してください。）</li>
-<li>agent_log_土日祝日_平常時.csv　（-&gt; 「土日祝日_平常時」直下に格納してください。）</li>
-<li>agent_log_土日祝日_イベント実施・広告設置時.csv　（-&gt; 「土日祝日_イベント実施・広告設置時」直下に格納してください。）</li>
-<li>agent_log_土日祝日_イベント実施・広告非設置時.csv　（-&gt; 「土日祝日_イベント実施・広告非設置時」直下に格納してください。）
-<img src="../images/csv_copy.png" alt=""></li>
-</ul>
-<h2 id="実行">実行</h2>
-<ol>
-<li>実行ボタンを押すと、データのロードが始まります。</li>
-<li>「Game」画面に移り、実行するシナリオをGame画面上部プルダウンから選択し、「Loac Scenario」を押すと、シミュレーション結果データが読み込まれます。</li>
-</ol>
-<h2 id="注意事項">注意事項</h2>
-<ul>
-<li>本アセットに、3D都市モデルは含まれておりません。</li>
-</ul>
 </article>
           </div>
 
@@ -124,7 +97,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/HiroakiGoto/PLATEAU-UC22-023-Pedestrian-Simulation-Result-Viewer-Manual/blob/main/articles/HowToUse.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/HiroakiGoto/PLATEAU-UC22-023-Pedestrian-Simulation-Result-Viewer-Manual/blob/main/articles/UnityExe.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
