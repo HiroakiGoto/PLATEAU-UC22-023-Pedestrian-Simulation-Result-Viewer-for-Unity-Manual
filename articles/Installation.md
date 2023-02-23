@@ -7,4 +7,4 @@
 2. ダウンロードされた「PLATEAU-UC22-023-Pedestrian-Simulation-Result-Viewer.zip」ファイルを解凍し、「pedestrianflowviewer.unitypackage」を取得します。
 
 3. Unity Editorを起動し、「Import Package」>「Custom Package」から「pedestrianflowviewer.unitypackage」を取り込みます。
-[](../images/import-packages.png)
+![](../images/import-packages.png)
