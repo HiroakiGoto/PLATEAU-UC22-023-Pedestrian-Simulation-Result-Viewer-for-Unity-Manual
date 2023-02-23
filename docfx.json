@@ -56,11 +56,11 @@
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [
-      "default"
+      "default","templates/unity"
     ],
     "postProcessors": [],
     "noLangKeyword": false,
     "keepFileLink": false,
-    "disableGitFeatures": false
+    "disableGitFeatures": false,
   }
 }
