@@ -35,11 +35,22 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "articles/Functions.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Functions.html",
+          "hash": "t1tbNxRP/vRIv+0zupBIfWp6260JTZYPwcvSEZvlZ9I="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "articles/HowToUse.md",
       "output": {
         ".html": {
           "relative_path": "articles/HowToUse.html",
-          "hash": "0hGKdmxyBhH59oQjbxZtCXhH1kNslVPjjh8wD3EoZ2Q="
+          "hash": "B+sTEL66gZiknQXxcn5CKutgTW8CjAkC2pwzEfMXA1U="
         }
       },
       "version": ""
@@ -94,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "OL0zAbaArSs0jI1OLSsWgbheT+02CuU/F1Q+MxB5ZkM="
+          "hash": "p6J5/ZMMIzdQSDnykjmDUs58tDrYIdoV2Z2/AI46OTw="
         }
       },
       "version": ""
@@ -115,6 +126,16 @@
       "output": {
         "resource": {
           "relative_path": "images/build-settings.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/change_result.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/change_result.png"
         }
       },
       "version": ""
@@ -165,6 +186,36 @@
       "output": {
         "resource": {
           "relative_path": "images/get-unity-package.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/guide-function.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/guide-function.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/heatmap-legends.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/heatmap-legends.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/heatmap.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/heatmap.png"
         }
       },
       "version": ""
@@ -300,12 +351,42 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "images/visualize-agent.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/visualize-agent.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/visualize-graph.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/visualize-graph.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/visualize-slider.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/visualize-slider.png"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "F7M1bCmBoAJWnzfGw8srkPP9FsTR+e//hxnYtSmuuuM="
+          "hash": "qzmwQ/plKt5VLwdvW5LsxWnjy6K9WhzDW3CAmo51gzQ="
         }
       },
       "version": ""
