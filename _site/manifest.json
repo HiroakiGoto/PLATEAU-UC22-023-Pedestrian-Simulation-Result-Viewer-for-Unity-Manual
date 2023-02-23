@@ -5,91 +5,6 @@
   "files": [
     {
       "type": "Resource",
-      "output": {
-        "resource": {
-          "relative_path": "index.json"
-        }
-      }
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "api/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "api/index.html",
-          "hash": "e+Hau/HaGshLssLJ2bdnzjfy2kZwdqTFPc2qYn7Bmzc="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/Environments.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/Environments.html",
-          "hash": "FqmgF0QohD7Wp6SgpGg9xXgHbFEAWCRiEjDybBOkj28="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/HowToUse.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/HowToUse.html",
-          "hash": "G6e2drBdLZF/bW+a2iP6LzNegO7RLNr1Qdy6UpMfijc="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/Installation.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/Installation.html",
-          "hash": "n/9waZ99Fc41jhyyy6BiXyGFHOwdtpX97gL7CiwUxnQ="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/NecessaryLicenses.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/NecessaryLicenses.html",
-          "hash": "lMPv+kQhAl7BP50r9Ji2BWAEXGlsiiF4SJ6tWd9qf6M="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/UnityInstallation.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/UnityInstallation.html",
-          "hash": "QdwQz4Ee2nseq3lyCM4ULfzgoDhm0bUia3RFWCyWXmM="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "articles/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "articles/toc.html",
-          "hash": "2m1u5PcRv0sp7RfO55igoXR9O/M13U07ZoOoDo2sqeo="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
       "source_relative_path": "images/csv_copy.png",
       "output": {
         "resource": {
@@ -164,28 +79,6 @@
       "output": {
         "resource": {
           "relative_path": "images/unity-version-install.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "index.md",
-      "output": {
-        ".html": {
-          "relative_path": "index.html",
-          "hash": "c8seM+kQKsptyIt/MtiN1CVHRJrpsMOhW1jZyF7/QO8="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "toc.html",
-          "hash": "WCBzfk8U0VhToCFHaafnwhGwI/l30g+GSaO0J3DnEbs="
         }
       },
       "version": ""
