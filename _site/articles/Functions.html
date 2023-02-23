@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>使い方 | PLATEAU-UC22-023　歩行シミュレーション結果アセット </title>
+      <title>機能一覧 | PLATEAU-UC22-023　歩行シミュレーション結果アセット </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="使い方 | PLATEAU-UC22-023　歩行シミュレーション結果アセット ">
+      <meta name="title" content="機能一覧 | PLATEAU-UC22-023　歩行シミュレーション結果アセット ">
     
       <link rel="shortcut icon" href="../favicon.ico">
       <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -76,61 +76,38 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="使い方">使い方</h1>
+<h1 id="機能一覧">機能一覧</h1>
 
-<p>ここでは、歩行シミュレーション結果アセットの使い方を記載します。
-<a href="Functions.html">本アセットで実装した機能</a>を実行ファイルで確認したい場合は、<a href="UnityExe.html">参考：Unity実行ファイル</a>を参照のうえご確認ください。</p>
-<h2 id="実行準備">実行準備</h2>
-<ol>
-<li>「PLATEAU-UC22-023-Pedestrian-Simulation-Result-Viewer.zip」内にある、「simulation-result」内にある下記6ファイルを、「Assets」と同じディレクトリに格納してください。
-<img src="../images/folder-copy.png" alt=""></li>
-</ol>
+<p>本アセットは、下記の6つの機能を新たに整備しています。</p>
+<h2 id="エージェント可視化機能">エージェント可視化機能</h2>
+<p>歩行シミュレーションの結果に応じてエージェント（人）を動かす機能
+<img src="../images/visualize-agent.png" alt=""></p>
+<h2 id="人流切り替え機能">人流切り替え機能</h2>
+<p>確認したいシナリオに応じて、表示するデータを切り替える機能</p>
+<p>確認できるシナリオは次の6つです。</p>
 <ul>
 <li>平日_平常時</li>
-<li>平日_イベント実施・広告設置時</li>
 <li>平日_イベント実施・広告非設置時</li>
+<li>平日_イベント実施・広告設置時</li>
 <li>土日祝日_平常時</li>
-<li>土日祝日_イベント実施・広告設置時</li>
 <li>土日祝日_イベント実施・広告非設置時</li>
+<li>土日祝日_イベント実施・広告設置時
+<img src="../images/change_result.png" alt=""></li>
 </ul>
-<ol start="2">
-<li><p>また、「simulation-result」内には「simulation-log.zip」が格納されているので同ファイルを併せて解凍してください。
-<img src="../images/get-simulation-log.png" alt=""></p>
-</li>
-<li><p>「simulation-log.zip」を解凍すると、下記6ファイルが含まれています。下記ファイルを1. で格納したディレクトリに格納してください。</p>
-</li>
-</ol>
-<ul>
-<li>agent_log_平日_平常時.csv　
-（-&gt; 「平日_平常時」直下に格納してください。）</li>
-<li>agent_log_平日_イベント実施・広告設置時.csv
-（-&gt; 「平日_イベント実施・広告設置時」直下に格納してください。）</li>
-<li>agent_log_平日_イベント実施・広告非設置時.csv
-（-&gt; 「平日_イベント実施・広告非設置時」直下に格納してください。）</li>
-<li>agent_log_土日祝日_平常時.csv
-（-&gt; 「土日祝日_平常時」直下に格納してください。）</li>
-<li>agent_log_土日祝日_イベント実施・広告設置時.csv
-（-&gt; 「土日祝日_イベント実施・広告設置時」直下に格納してください。）</li>
-<li>agent_log_土日祝日_イベント実施・広告非設置時.csv　
-（-&gt; 「土日祝日_イベント実施・広告非設置時」直下に格納してください。）
-<img src="../images/csv_copy.png" alt=""></li>
-</ul>
-<h2 id="実行">実行</h2>
-<ol>
-<li><p>「Assets」&gt;「PedestrianFlowViewer」内にある「Sample Scene」を「Hierarchy」にドラッグアンドドロップします。
-<img src="../images/set_asset.png" alt=""></p>
-</li>
-<li><p>実行ボタンを押すと、データのロードが始まります。
-<img src="../images/unity-execute.png" alt=""></p>
-</li>
-<li><p>「Game」画面に移り、実行するシナリオをGame画面上部プルダウンから選択し、「Load Scenario」を押すと、シミュレーション結果データが読み込まれます。
-<img src="../images/set_scenario.png" alt=""></p>
-</li>
-</ol>
-<h2 id="注意事項">注意事項</h2>
-<ul>
-<li>本アセットに、3D都市モデルは含まれておりません。</li>
-</ul>
+<h2 id="ガイド機能">ガイド機能</h2>
+<p>画面が表示されている方向やその位置を俯瞰的に確認できる機能
+<img src="../images/guide-function.png" alt=""></p>
+<h2 id="ヒートマップ機能">ヒートマップ機能</h2>
+<p>歩行シミュレーション結果の分析として、通行量の変化をヒートマップで表示する機能</p>
+<p><img src="../images/heatmap.png" alt=""></p>
+<p>凡例
+<img src="../images/heatmap-legends.png" alt=""></p>
+<h2 id="時系列人流可視化機能">時系列人流可視化機能</h2>
+<p>時間ごとの人流をスムーズに表示するスライドバー機能</p>
+<p><img src="../images/visualize-slider.png" alt=""></p>
+<h2 id="グラフ機能">グラフ機能</h2>
+<p>歩行シミュレーションの結果として、通行量と通行量の変化を定量的にグラフで表示する機能
+<img src="../images/visualize-graph.png" alt=""></p>
 </article>
           </div>
 
@@ -139,7 +116,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/HiroakiGoto/PLATEAU-UC22-023-Pedestrian-Simulation-Result-Viewer-Manual/blob/main/articles/HowToUse.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/HiroakiGoto/PLATEAU-UC22-023-Pedestrian-Simulation-Result-Viewer-Manual/blob/main/articles/Functions.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

@@ -1,5 +1,6 @@
 # 使い方
 ここでは、歩行シミュレーション結果アセットの使い方を記載します。
+[本アセットで実装した機能](Functions.md)を実行ファイルで確認したい場合は、[参考：Unity実行ファイル](UnityExe.md)を参照のうえご確認ください。
 
 ## 実行準備
 1. 「PLATEAU-UC22-023-Pedestrian-Simulation-Result-Viewer.zip」内にある、「simulation-result」内にある下記6ファイルを、「Assets」と同じディレクトリに格納してください。

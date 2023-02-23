@@ -5,8 +5,9 @@
 
 1. [動作環境、前提ソフトウェア](./articles/Environments.md)
 2. [必要ライセンス、必要パッケージ](./articles/NecessaryLicenses.md)
-3. [インストール方法](./articles/Installation.md)
-4. [使い方](./articles/HowToUse.md)
+3. [機能一覧](./articles/Functions.md)
+4. [インストール方法](./articles/Installation.md)
+5. [使い方](./articles/HowToUse.md)
 
 （参考資料）
 1. [参考：Unityのインストール方法](./articles/UnityInstallation.md)
