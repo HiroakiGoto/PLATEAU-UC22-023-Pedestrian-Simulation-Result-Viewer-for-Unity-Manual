@@ -1,5 +1,2 @@
 - name: Articles
   href: articles/
-- name: Scripting API
-  href: api/
-  homepage: api/index.md

@@ -6,4 +6,5 @@
     - 2023年1月時点における長期サポートバージョン
     - 参考：[Unity Long Term Support](https://unity.com/releases/editor/qa/lts-releases)
 
-Unityのインストールについては、[こちら](UnityInstallation.md)をご覧ください。
+
+Unityのインストールについては、[こちら（参考：Unityのインストール方法）](UnityInstallation.md)をご覧ください。
