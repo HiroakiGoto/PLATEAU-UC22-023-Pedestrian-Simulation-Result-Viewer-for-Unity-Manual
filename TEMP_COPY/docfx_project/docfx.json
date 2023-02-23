@@ -4,13 +4,11 @@
       "src": [
         {
           "files": [
-            "src/**.csproj"
+            "src/**.cs"
           ]
         }
       ],
-      "dest": "api",
-      "disableGitFeatures": false,
-      "disableDefaultFilter": false
+      "dest": "api"
     }
   ],
   "build": {
@@ -22,8 +20,8 @@
     "content": [
       {
         "files": [
-          "api/toc.yml",
-          "api/index.md"
+          "toc.yml",
+          "index.md"
         ]
       },
       {
@@ -34,13 +32,12 @@
         "dest": "api"
       },
       {
+        "src": "articles",
         "files": [
-          "articles/**.md",
-          "articles/**/toc.yml",
           "toc.yml",
           "*.md"
         ]
-      }
+      },
     ],
     "resource": [
       {
