@@ -3,12 +3,12 @@
 - name: 利用を開始する
   items:
   - name: 動作環境、前提ソフトウェア
-    href: Installation.md
+    href: Environments.md
   - name: 必要ライセンス、必要パッケージ
-    href: ImportCityModels.md
+    href: NecessaryLicenses.md
   - name: インストール方法
-    href: ExportCityModels.md
+    href: Installation.md
   - name: 使い方
-    href: ModelAdjust.md  
+    href: HowToUse.md
   - name: 参考：Unityのインストール方法
-    href: AccessCityObject.md
+    href: UnityInstallation.md
