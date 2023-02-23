@@ -26,8 +26,8 @@ jobs:
       - name: Build Document
         run: docfx docfx.json
 
-#      - name: Publish Documentation on GitHub Pages
-#        uses: peaceiris/actions-gh-pages@v3
-#        with:
-#          github_token: ${{ secrets.GITHUB_TOKEN }}
-#          publish_dir: .docs/_site
+      - name: Publish Documentation on GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .docs/_site
