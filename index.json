@@ -31,8 +31,8 @@
   },
   "articles/UnityExe.html": {
     "href": "articles/UnityExe.html",
-    "title": "Unity実行ファイルの作成 | PLATEAU-UC22-023 歩行シミュレーション結果アセット",
-    "keywords": "Unity実行ファイルの作成 ここでは、Unityエディタから実行ファイル（EXEファイル）を作成する方法を記載します。 アプリケーションのビルド Unityエディタの画面から、「File」>「Build Settings」を選択します。 「Build Settings」の画面から、「Build」を実行すると、Windowsデスクトップ版でのアプリケーションの実行ファイル（EXEファイル）が作成されます。 必要に応じて、別形式（スマートフォン対応等）の作成も可能です。"
+    "title": "参考：Unity実行ファイルの作成 | PLATEAU-UC22-023 歩行シミュレーション結果アセット",
+    "keywords": "参考：Unity実行ファイルの作成 ここでは、Unityエディタから実行ファイル（EXEファイル）を作成する方法を記載します。 アプリケーションのビルド Unityエディタの画面から、「File」>「Build Settings」を選択します。 「Build Settings」の画面から、「Build」を実行すると、Windowsデスクトップ版でのアプリケーションの実行ファイル（EXEファイル）が作成されます。 必要に応じて、別形式（スマートフォン対応等）の作成も可能です。"
   },
   "articles/UnityInstallation.html": {
     "href": "articles/UnityInstallation.html",
