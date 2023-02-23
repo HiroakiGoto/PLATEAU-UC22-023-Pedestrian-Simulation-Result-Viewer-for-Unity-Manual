@@ -4,18 +4,19 @@
       "src": [
         {
           "files": [
-            "src/**.csproj"
+            ".docs/__dummy.cs"
           ]
         }
       ],
       "dest": "api",
-      "includePrivateMembers": false,
-      "disableGitFeatures": false,
-      "disableDefaultFilter": false,
-      "namespaceLayout": "flattened"
     }
   ],
   "build": {
+    "globalMetadata": {
+            "_appTitle": "PLATEAU-UC22-023-Pedestrian-Simulation-Result-Viewer",
+            "_appFooter": "PLATEAU-UC22-023-Pedestrian-Simulation-Result-Viewer",
+            "_enableSearch": true
+        },
     "content": [
       {
         "files": [
