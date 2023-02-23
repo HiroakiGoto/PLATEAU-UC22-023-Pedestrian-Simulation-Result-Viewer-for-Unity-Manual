@@ -1,0 +1,37 @@
+{
+  "api/index.html": {
+    "href": "api/index.html",
+    "title": "PLACEHOLDER | PLATEAU-UC22-023 歩行シミュレーション結果アセット",
+    "keywords": "PLACEHOLDER TODO: Add .NET projects to the src folder and run docfx to generate REAL API Documentation!"
+  },
+  "articles/Environments.html": {
+    "href": "articles/Environments.html",
+    "title": "動作環境、前提ソフトウェア | PLATEAU-UC22-023 歩行シミュレーション結果アセット",
+    "keywords": "動作環境、前提ソフトウェア ここでは、歩行シミュレーション結果アセットに必要な動作環境、ソフトウェアを記載します。 動作環境 Unity LTS Release2021.3.19f1 2023年1月時点における長期サポートバージョン 参考：Unity Long Term Support Unityのインストールについては、こちらをご覧ください。"
+  },
+  "articles/HowToUse.html": {
+    "href": "articles/HowToUse.html",
+    "title": "使い方 | PLATEAU-UC22-023 歩行シミュレーション結果アセット",
+    "keywords": "使い方 ここでは、歩行シミュレーション結果アセットの使い方を記載します。 実行準備 「PLATEAU-UC22-023-Pedestrian-Simulation-Result-Viewer.zip」内にある、「simulation-result」内にある下記6ファイルを、「Assets」と同じディレクトリに格納してください。 平日_平常時 平日_イベント実施・広告設置時 平日_イベント実施・広告非設置時 土日祝日_平常時 土日祝日_イベント実施・広告設置時 土日祝日_イベント実施・広告非設置時 また、「simulation-result」内には「simulation-log.zip」が格納されているので同ファイルを併せて解凍してください。 「simulation-log.zip」を解凍すると、下記6ファイルが含まれています。下記ファイルを1. で格納したディレクトリに格納してください。 agent_log_平日_平常時.csv （-> 「平日_平常時」直下に格納してください。） agent_log_平日_イベント実施・広告設置時.csv （-> 「平日_イベント実施・広告設置時」直下に格納してください。） agent_log_平日_イベント実施・広告非設置時.csv （-> 「平日_イベント実施・広告非設置時」直下に格納してください。） agent_log_土日祝日_平常時.csv （-> 「土日祝日_平常時」直下に格納してください。） agent_log_土日祝日_イベント実施・広告設置時.csv （-> 「土日祝日_イベント実施・広告設置時」直下に格納してください。） agent_log_土日祝日_イベント実施・広告非設置時.csv （-> 「土日祝日_イベント実施・広告非設置時」直下に格納してください。） 実行 実行ボタンを押すと、データのロードが始まります。 「Game」画面に移り、実行するシナリオをGame画面上部プルダウンから選択し、「Loac Scenario」を押すと、シミュレーション結果データが読み込まれます。 注意事項 本アセットに、3D都市モデルは含まれておりません。"
+  },
+  "articles/Installation.html": {
+    "href": "articles/Installation.html",
+    "title": "インストール方法 | PLATEAU-UC22-023 歩行シミュレーション結果アセット",
+    "keywords": "インストール方法 ここでは、歩行シミュレーション結果アセットのインストール方法を記載します。 インストール手順 本リポジトリ内のあるファイル一式を「Code」> 「Download Zip」からダウンロードします。 ダウンロードされた「PLATEAU-UC22-023-Pedestrian-Simulation-Result-Viewer.zip」ファイルを解凍し、「pedestrianflowviewer.unitypackage」を取得します。 Unity Editorを起動し、「Import Package」>「Custom Package」から「pedestrianflowviewer.unitypackage」を取り込みます。"
+  },
+  "articles/NecessaryLicenses.html": {
+    "href": "articles/NecessaryLicenses.html",
+    "title": "必要ライセンス、必要パッケージ | PLATEAU-UC22-023 歩行シミュレーション結果アセット",
+    "keywords": "必要ライセンス、必要パッケージ ここでは、歩行シミュレーション結果アセットに必要なライセンス、パッケージを記載します。 必要ライセンス Unity Personal以上 参考：Unity Choose the plan that is right for you 必要パッケージ Newtonsoft Json インストールの方法は次の手順の通りです。 Unityプロジェクトを立ち上げると、「Package Manager」がタブに表示されます。 そのタブをクリックし、「+」ボタンを押すと、「Add package from git URL…」が表示されるので、クリックします。 テキストボックスが表示されるので、「com.unity.nuget.newtonsoft-json」と記入します。 「Add」ボタンを押すと、インストールが完了します。"
+  },
+  "articles/UnityInstallation.html": {
+    "href": "articles/UnityInstallation.html",
+    "title": "参考：Unityのインストール方法 | PLATEAU-UC22-023 歩行シミュレーション結果アセット",
+    "keywords": "参考：Unityのインストール方法 ここでは、Unityのインストール方法について記載します。 対応Unityのインスト―ル Unity Hubをインストールします。Unity Hubはこちらからダウンロードできます。 Unity HubはUnityの任意のバージョンをインストールして起動できるソフトウェアです。 Unity Hubを起動し、サイドバーから「Installs」→「Install Editor」をクリックします。 Unityのバージョンをインストールします。なお、歩行シミュレーション結果アセットでは、Unity LTS Release2021.3.19f1（2023年1月時点における長期サポートバージョン）での動作を確認しています。 Unityプロジェクトの作成 Unity Hubのサイドバーから「Projects」を押し、右上の「New Project」からUnityプロジェクトを作成します。 Unityプロジェクト作成の際、「Editor Version」を設定のうえ、テンプレートを「3D」とし、任意のプロジェクト名を付け作成します。"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "令和4年度 民間ユースケース開発 UC22-023「歩行者移動・回遊行動シミュレーション」 歩行シミュレーション結果アセット | PLATEAU-UC22-023 歩行シミュレーション結果アセット",
+    "keywords": "令和4年度 民間ユースケース開発 UC22-023「歩行者移動・回遊行動シミュレーション」 歩行シミュレーション結果アセット 本マニュアルは、国土交通省民間ユースケース開発UC22-023「歩行者移動・回遊行動シミュレーション」における歩行シミュレーション結果を表示するUnityアセットの利用方法及び説明となります。 項目: 動作環境、前提ソフトウェア 必要ライセンス、必要パッケージ インストール方法 使い方 参考：Unityのインストール方法 変更確認!!"
+  }
+}

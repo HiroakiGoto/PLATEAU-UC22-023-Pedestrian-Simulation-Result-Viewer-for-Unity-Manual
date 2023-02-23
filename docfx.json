@@ -21,8 +21,8 @@
     "content": [
       {
         "files": [
-          "toc.yml",
-          "index.md"
+          "apo/toc.yml",
+          "api/index.md"
         ]
       },
       {
@@ -61,6 +61,6 @@
     "postProcessors": [],
     "noLangKeyword": false,
     "keepFileLink": false,
-    "disableGitFeatures": false,
+    "disableGitFeatures": false
   }
 }
