@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>インストール方法 | PLATEAU-UC22-023　歩行シミュレーション結果アセット </title>
+      <title>グラフ機能 | PLATEAU-UC22-023　歩行シミュレーション結果アセット </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="インストール方法 | PLATEAU-UC22-023　歩行シミュレーション結果アセット ">
+      <meta name="title" content="グラフ機能 | PLATEAU-UC22-023　歩行シミュレーション結果アセット ">
     
       <link rel="shortcut icon" href="../favicon.ico">
       <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -76,62 +76,16 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="インストール方法">インストール方法</h1>
+<h1 id="グラフ機能">グラフ機能</h1>
 
-<p>ここでは、歩行シミュレーション結果アセットのインストール方法を記載します。</p>
-<h2 id="動作環境前提ソフトウェア必要ライセンス必要パッケージ">動作環境、前提ソフトウェア、必要ライセンス、必要パッケージ</h2>
-<h3 id="動作環境">動作環境</h3>
+<p>この機能は、歩行シミュレーションの結果として、通行量と通行量の変化を定量的にグラフで表示する機能です。</p>
+<p><img src="../images/visualize-graph.png" alt=""></p>
+<h2 id="機能概要">機能概要</h2>
 <ul>
-<li>Unity LTS Release2021.3.19f1
-<ul>
-<li>2023年1月時点における長期サポートバージョン</li>
-<li>参考：<a href="https://unity.com/releases/editor/qa/lts-releases">Unity Long Term Support</a></li>
+<li>通行量比の大きい道路に対して、マーカーを設置しています。</li>
+<li>マーカーをクリックすると、10分ごとの通行量や通行量比の時間変化を示したグラフがポップアップされます。</li>
+<li>グラフタイトルには通りの名称と周辺の代表的な地名を記載しており、グラフからも場所を確認することが可能です。</li>
 </ul>
-</li>
-</ul>
-<p>Unityのインストールについては、<a href="UnityInstallation.html">こちら（参考：Unityのインストール方法）</a>をご覧ください。</p>
-<h3 id="必要ライセンス">必要ライセンス</h3>
-<ul>
-<li>Unity Personal以上
-<ul>
-<li>参考：Unity <a href="https://store.unity.com/compare-plans">Choose the plan that is right for you</a></li>
-</ul>
-</li>
-</ul>
-<h3 id="必要パッケージ">必要パッケージ</h3>
-<ul>
-<li>Newtonsoft Json
-<ul>
-<li>インストールの方法は次の手順の通りです。</li>
-</ul>
-</li>
-</ul>
-<ol>
-<li><p>Unityプロジェクトを立ち上げると、「Package Manager」がタブに表示されます。
-<img src="../images/unity-open.png" alt=""></p>
-</li>
-<li><p>そのタブをクリックし、「+」ボタンを押すと、「Add package from git URL…」が表示されるので、クリックします。
-<img src="../images/package_manager.png" alt=""></p>
-</li>
-<li><p>テキストボックスが表示されるので、「com.unity.nuget.newtonsoft-json」と記入します。
-<img src="../images/package_manager_insert_url.png" alt=""></p>
-</li>
-<li><p>「Add」ボタンを押すと、インストールが完了します。
-<img src="../images/package_manager_insert_url_add.png" alt=""></p>
-</li>
-</ol>
-<h2 id="インストール手順">インストール手順</h2>
-<ol>
-<li><p>本リポジトリ内のあるファイル一式を「Code」&gt; 「Download Zip」からダウンロードします。
-<img src="../images/download-zip.png" alt=""></p>
-</li>
-<li><p>ダウンロードされた「PLATEAU-UC22-023-Pedestrian-Simulation-Result-Viewer.zip」ファイルを解凍し、「pedestrianflowviewer.unitypackage」を取得します。
-<img src="../images/get-unity-package.png" alt=""></p>
-</li>
-<li><p>Unity Editorを起動し、「Import Package」&gt;「Custom Package」から「pedestrianflowviewer.unitypackage」を取りこむと、インストールが完了します。
-<img src="../images/import-packages.png" alt=""></p>
-</li>
-</ol>
 </article>
           </div>
 
@@ -140,7 +94,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/HiroakiGoto/PLATEAU-UC22-023-Pedestrian-Simulation-Result-Viewer-Manual/blob/main/articles/Installation.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/HiroakiGoto/PLATEAU-UC22-023-Pedestrian-Simulation-Result-Viewer-Manual/blob/main/articles/FunctionGraph.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

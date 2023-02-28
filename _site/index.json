@@ -4,30 +4,40 @@
     "title": "PLACEHOLDER | PLATEAU-UC22-023 歩行シミュレーション結果アセット",
     "keywords": "PLACEHOLDER TODO: Add .NET projects to the src folder and run docfx to generate REAL API Documentation!"
   },
-  "articles/Environments.html": {
-    "href": "articles/Environments.html",
-    "title": "動作環境、前提ソフトウェア | PLATEAU-UC22-023 歩行シミュレーション結果アセット",
-    "keywords": "動作環境、前提ソフトウェア ここでは、歩行シミュレーション結果アセットに必要な動作環境、ソフトウェアを記載します。 動作環境 Unity LTS Release2021.3.19f1 2023年1月時点における長期サポートバージョン 参考：Unity Long Term Support Unityのインストールについては、こちら（参考：Unityのインストール方法）をご覧ください。"
+  "articles/FunctionAgentVisualization.html": {
+    "href": "articles/FunctionAgentVisualization.html",
+    "title": "エージェント可視化機能 | PLATEAU-UC22-023 歩行シミュレーション結果アセット",
+    "keywords": "エージェント可視化機能 この機能は、歩行シミュレーションの結果に応じてエージェント（人）を動かす機能です。 機能概要 歩行シミュレーションの結果（ログデータ）にしたがって、エージェントを動かしています。 歩行シミュレーションの結果（ログデータ）は10秒ごとの位置データのみが含まれているため、0.5秒ごとの線形補間を行い、Unity上で可視化するエージェントの位置データを生成しています。 エージェントは、次のようなゲームオブジェクトとして生成しています。 エージェントの頭部を白色Sphere（球体）オブジェクトで表現 エージェントの胴体を、男性は青色のCylinder（円柱）オブジェクト、女性は赤色のCylinder（円柱）オブジェクトで表現"
   },
-  "articles/Functions.html": {
-    "href": "articles/Functions.html",
-    "title": "機能一覧 | PLATEAU-UC22-023 歩行シミュレーション結果アセット",
-    "keywords": "機能一覧 本アセットは、下記の6つの機能を新たに整備しています。 エージェント可視化機能 歩行シミュレーションの結果に応じてエージェント（人）を動かす機能 人流切り替え機能 確認したいシナリオに応じて、表示するデータを切り替える機能 確認できるシナリオは次の6つです。 平日_平常時 平日_イベント実施・広告非設置時 平日_イベント実施・広告設置時 土日祝日_平常時 土日祝日_イベント実施・広告非設置時 土日祝日_イベント実施・広告設置時 ガイド機能 画面が表示されている方向やその位置を俯瞰的に確認できる機能 ヒートマップ機能 歩行シミュレーション結果の分析として、通行量の変化をヒートマップで表示する機能 凡例 時系列人流可視化機能 時間ごとの人流をスムーズに表示するスライドバー機能 グラフ機能 歩行シミュレーションの結果として、通行量と通行量の変化を定量的にグラフで表示する機能"
+  "articles/FunctionGraph.html": {
+    "href": "articles/FunctionGraph.html",
+    "title": "グラフ機能 | PLATEAU-UC22-023 歩行シミュレーション結果アセット",
+    "keywords": "グラフ機能 この機能は、歩行シミュレーションの結果として、通行量と通行量の変化を定量的にグラフで表示する機能です。 機能概要 通行量比の大きい道路に対して、マーカーを設置しています。 マーカーをクリックすると、10分ごとの通行量や通行量比の時間変化を示したグラフがポップアップされます。 グラフタイトルには通りの名称と周辺の代表的な地名を記載しており、グラフからも場所を確認することが可能です。"
   },
-  "articles/HowToUse.html": {
-    "href": "articles/HowToUse.html",
-    "title": "使い方 | PLATEAU-UC22-023 歩行シミュレーション結果アセット",
-    "keywords": "使い方 ここでは、歩行シミュレーション結果アセットの使い方を記載します。 本アセットで実装した機能を実行ファイルで確認したい場合は、参考：Unity実行ファイルを参照のうえご確認ください。 実行準備 「PLATEAU-UC22-023-Pedestrian-Simulation-Result-Viewer.zip」内にある、「simulation-result」内にある下記6ファイルを、「Assets」と同じディレクトリに格納してください。 平日_平常時 平日_イベント実施・広告設置時 平日_イベント実施・広告非設置時 土日祝日_平常時 土日祝日_イベント実施・広告設置時 土日祝日_イベント実施・広告非設置時 また、「simulation-result」内には「simulation-log.zip」が格納されているので同ファイルを併せて解凍してください。 「simulation-log.zip」を解凍すると、下記6ファイルが含まれています。下記ファイルを1. で格納したディレクトリに格納してください。 agent_log_平日_平常時.csv （-> 「平日_平常時」直下に格納してください。） agent_log_平日_イベント実施・広告設置時.csv （-> 「平日_イベント実施・広告設置時」直下に格納してください。） agent_log_平日_イベント実施・広告非設置時.csv （-> 「平日_イベント実施・広告非設置時」直下に格納してください。） agent_log_土日祝日_平常時.csv （-> 「土日祝日_平常時」直下に格納してください。） agent_log_土日祝日_イベント実施・広告設置時.csv （-> 「土日祝日_イベント実施・広告設置時」直下に格納してください。） agent_log_土日祝日_イベント実施・広告非設置時.csv （-> 「土日祝日_イベント実施・広告非設置時」直下に格納してください。） 実行 「Assets」>「PedestrianFlowViewer」内にある「Sample Scene」を「Hierarchy」にドラッグアンドドロップします。 実行ボタンを押すと、データのロードが始まります。 「Game」画面に移り、実行するシナリオをGame画面上部プルダウンから選択し、「Load Scenario」を押すと、シミュレーション結果データが読み込まれます。 注意事項 本アセットに、3D都市モデルは含まれておりません。"
+  "articles/FunctionGuide.html": {
+    "href": "articles/FunctionGuide.html",
+    "title": "ガイド機能 | PLATEAU-UC22-023 歩行シミュレーション結果アセット",
+    "keywords": "ガイド機能 この機能は、確認したいシナリオに応じて、表示するデータを切り替える機能です。 機能概要 シミュレーション画面を投影しているカメラの位置を、対象地区の俯瞰図（2D）内で示します。"
+  },
+  "articles/FunctionHeatmap.html": {
+    "href": "articles/FunctionHeatmap.html",
+    "title": "ヒートマップ機能 | PLATEAU-UC22-023 歩行シミュレーション結果アセット",
+    "keywords": "ヒートマップ機能 この機能は、歩行シミュレーション結果の分析として、通行量の変化をヒートマップで表示する機能です。 機能概要 歩行シミュレーション結果として出力されるJSONファイルには、リンクのポリゴン（形状）データ、10分おきに集計された通行量比が含まれています。 通行量比とは、イベント実施時の効果を測定する指標として設定したものであり、平常時の通行量に対する、シナリオ時の通行量の比を示したものです。 JSONファイルに従って、10分おきにその時刻における通行量比をヒートマップで表示します。 ヒートマップの凡例は下記図の通りです。"
+  },
+  "articles/FunctionScenarioChange.html": {
+    "href": "articles/FunctionScenarioChange.html",
+    "title": "人流切り替え機能 | PLATEAU-UC22-023 歩行シミュレーション結果アセット",
+    "keywords": "人流切り替え機能 この機能は、確認したいシナリオに応じて、表示するデータを切り替える機能です。 機能概要 プルダウンでシナリオを切り替えられるUIを設置しています。 シナリオをプルダウンで設定後、「Load Scenario」を押すと、表示したいデータが読み込まれます。 確認できるシナリオ 確認できるシナリオは次の6つです。 平日_平常時 平日_イベント実施・広告非設置時 平日_イベント実施・広告設置時 土日祝日_平常時 土日祝日_イベント実施・広告非設置時 土日祝日_イベント実施・広告設置時"
+  },
+  "articles/FunctionSlider.html": {
+    "href": "articles/FunctionSlider.html",
+    "title": "時系列人流可視化機能 | PLATEAU-UC22-023 歩行シミュレーション結果アセット",
+    "keywords": "時系列人流可視化機能 この機能は、時間ごとの人流をスムーズに表示するスライドバー機能です。 機能概要 任意の時点の人流をスライドバーまたはスライドバー横のボックスから指定し可視化します。 スライドバーで指定された時刻、もしくはテキストボックスで指定されたシミュレーションステップ数に対応する位置にエージェントを配置します。 8:00時点を0ステップとし、シミュレーション内での1秒あたり1ステップ進むようになっています。 すなわち、9:00時点では3,600ステップとなります。"
   },
   "articles/Installation.html": {
     "href": "articles/Installation.html",
     "title": "インストール方法 | PLATEAU-UC22-023 歩行シミュレーション結果アセット",
-    "keywords": "インストール方法 ここでは、歩行シミュレーション結果アセットのインストール方法を記載します。 インストール手順 本リポジトリ内のあるファイル一式を「Code」> 「Download Zip」からダウンロードします。 ダウンロードされた「PLATEAU-UC22-023-Pedestrian-Simulation-Result-Viewer.zip」ファイルを解凍し、「pedestrianflowviewer.unitypackage」を取得します。 Unity Editorを起動し、「Import Package」>「Custom Package」から「pedestrianflowviewer.unitypackage」を取りこむと、インストールが完了します。"
-  },
-  "articles/NecessaryLicenses.html": {
-    "href": "articles/NecessaryLicenses.html",
-    "title": "必要ライセンス、必要パッケージ | PLATEAU-UC22-023 歩行シミュレーション結果アセット",
-    "keywords": "必要ライセンス、必要パッケージ ここでは、歩行シミュレーション結果アセットに必要なライセンス、パッケージを記載します。 必要ライセンス Unity Personal以上 参考：Unity Choose the plan that is right for you 必要パッケージ Newtonsoft Json インストールの方法は次の手順の通りです。 Unityプロジェクトを立ち上げると、「Package Manager」がタブに表示されます。 そのタブをクリックし、「+」ボタンを押すと、「Add package from git URL…」が表示されるので、クリックします。 テキストボックスが表示されるので、「com.unity.nuget.newtonsoft-json」と記入します。 「Add」ボタンを押すと、インストールが完了します。"
+    "keywords": "インストール方法 ここでは、歩行シミュレーション結果アセットのインストール方法を記載します。 動作環境、前提ソフトウェア、必要ライセンス、必要パッケージ 動作環境 Unity LTS Release2021.3.19f1 2023年1月時点における長期サポートバージョン 参考：Unity Long Term Support Unityのインストールについては、こちら（参考：Unityのインストール方法）をご覧ください。 必要ライセンス Unity Personal以上 参考：Unity Choose the plan that is right for you 必要パッケージ Newtonsoft Json インストールの方法は次の手順の通りです。 Unityプロジェクトを立ち上げると、「Package Manager」がタブに表示されます。 そのタブをクリックし、「+」ボタンを押すと、「Add package from git URL…」が表示されるので、クリックします。 テキストボックスが表示されるので、「com.unity.nuget.newtonsoft-json」と記入します。 「Add」ボタンを押すと、インストールが完了します。 インストール手順 本リポジトリ内のあるファイル一式を「Code」> 「Download Zip」からダウンロードします。 ダウンロードされた「PLATEAU-UC22-023-Pedestrian-Simulation-Result-Viewer.zip」ファイルを解凍し、「pedestrianflowviewer.unitypackage」を取得します。 Unity Editorを起動し、「Import Package」>「Custom Package」から「pedestrianflowviewer.unitypackage」を取りこむと、インストールが完了します。"
   },
   "articles/UnityExe.html": {
     "href": "articles/UnityExe.html",
@@ -39,9 +49,19 @@
     "title": "参考：Unityのインストール方法 | PLATEAU-UC22-023 歩行シミュレーション結果アセット",
     "keywords": "参考：Unityのインストール方法 ここでは、Unityのインストール方法について記載します。 対応Unityのインスト―ル Unity Hubをインストールします。Unity Hubはこちらからダウンロードできます。 Unity HubはUnityの任意のバージョンをインストールして起動できるソフトウェアです。 Unity Hubを起動し、サイドバーから「Installs」→「Install Editor」をクリックします。 Unityのバージョンをインストールします。なお、歩行シミュレーション結果アセットでは、Unity LTS Release2021.3.19f1（2023年1月時点における長期サポートバージョン）での動作を確認しています。 Unityプロジェクトの作成 Unity Hubのサイドバーから「Projects」を押し、右上の「New Project」からUnityプロジェクトを作成します。 Unityプロジェクト作成の際、「Editor Version」を設定のうえ、テンプレートを「3D」とし、任意のプロジェクト名を付け作成します。"
   },
+  "articles/VisualizationEexcution.html": {
+    "href": "articles/VisualizationEexcution.html",
+    "title": "歩行シミュレーション結果可視化実行 | PLATEAU-UC22-023 歩行シミュレーション結果アセット",
+    "keywords": "歩行シミュレーション結果可視化実行 ここでは、歩行シミュレーション結果を可視化する実行方法について記載します。 なお、本アセットで実装した機能を実行ファイルで確認したい場合は、参考：Unity実行ファイルを参照のうえご確認ください。 実行手順 「Assets」>「PedestrianFlowViewer」内にある「Sample Scene」を「Hierarchy」にドラッグアンドドロップします。 実行ボタンを押すと、データのロードが始まります。 「Game」画面に移り、実行するシナリオをGame画面上部プルダウンから選択し、「Load Scenario」を押すと、シミュレーション結果データが読み込まれます。"
+  },
+  "articles/VisualizationPreparation.html": {
+    "href": "articles/VisualizationPreparation.html",
+    "title": "歩行シミュレーション結果可視化準備 | PLATEAU-UC22-023 歩行シミュレーション結果アセット",
+    "keywords": "歩行シミュレーション結果可視化準備 ここでは、歩行シミュレーション結果を可視化するための準備方法について記載します。 実行準備手順 「PLATEAU-UC22-023-Pedestrian-Simulation-Result-Viewer.zip」内にある、「simulation-result」内にある下記6ファイルを、「Assets」と同じディレクトリに格納してください。 平日_平常時 平日_イベント実施・広告設置時 平日_イベント実施・広告非設置時 土日祝日_平常時 土日祝日_イベント実施・広告設置時 土日祝日_イベント実施・広告非設置時 また、「simulation-result」内には「simulation-log.zip」が格納されているので同ファイルを併せて解凍してください。 「simulation-log.zip」を解凍すると、下記6ファイルが含まれています。下記ファイルを1. で格納したディレクトリに格納してください。 agent_log_平日_平常時.csv （-> 「平日_平常時」直下に格納してください。） agent_log_平日_イベント実施・広告設置時.csv （-> 「平日_イベント実施・広告設置時」直下に格納してください。） agent_log_平日_イベント実施・広告非設置時.csv （-> 「平日_イベント実施・広告非設置時」直下に格納してください。） agent_log_土日祝日_平常時.csv （-> 「土日祝日_平常時」直下に格納してください。） agent_log_土日祝日_イベント実施・広告設置時.csv （-> 「土日祝日_イベント実施・広告設置時」直下に格納してください。） agent_log_土日祝日_イベント実施・広告非設置時.csv （-> 「土日祝日_イベント実施・広告非設置時」直下に格納してください。）"
+  },
   "index.html": {
     "href": "index.html",
     "title": "UC22-023「歩行者移動・回遊行動シミュレーション」 歩行シミュレーション結果アセット | PLATEAU-UC22-023 歩行シミュレーション結果アセット",
-    "keywords": "UC22-023「歩行者移動・回遊行動シミュレーション」 歩行シミュレーション結果アセット 本マニュアルは、国土交通省民間ユースケース開発UC22-023「歩行者移動・回遊行動シミュレーション」における、歩行シミュレーション結果を表示するUnityアセットの利用方法及び説明となります。 動作環境、前提ソフトウェア 必要ライセンス、必要パッケージ 機能一覧 インストール方法 使い方 （参考資料） 参考：Unityのインストール方法 参考：Unity実行ファイルの作成"
+    "keywords": "UC22-023「歩行者移動・回遊行動シミュレーション」 歩行シミュレーション結果アセット 本マニュアルは、国土交通省民間ユースケース開発UC22-023「歩行者移動・回遊行動シミュレーション」における、歩行シミュレーション結果を表示するUnityアセットの利用方法及び説明となります。 なお、本アセットに3D都市モデルは含まれておりません。 インストール方法 歩行シミュレーション結果可視化準備 歩行シミュレーション結果可視化実行 （参考資料） 参考：Unityのインストール方法 参考：Unity実行ファイルの作成 （アセット機能一覧） エージェント可視化機能 人流切り替え機能 ガイド機能 ヒートマップ機能 時系列人流可視化機能 グラフ機能"
   }
 }
