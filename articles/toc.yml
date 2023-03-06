@@ -3,7 +3,9 @@
 - name: 利用を開始する
   items:
   - name: インストール方法
-    href: Installation.md
+    items:
+    - name: インストール方法
+      href: Installation.md
   - name: 利用準備
     items:
     - name: 歩行シミュレーション結果可視化準備
