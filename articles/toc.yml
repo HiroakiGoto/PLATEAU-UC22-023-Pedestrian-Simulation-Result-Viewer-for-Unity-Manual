@@ -1,27 +1,31 @@
-- name: 歩行シミュレーション結果アセット
+- name: 歩行シミュレーション結果表示アセット
   href: ../index.md
 - name: 利用を開始する
   items:
   - name: インストール方法
     href: Installation.md
-  - name: 歩行シミュレーション結果可視化準備
-    href: VisualizationPreparation.md
-  - name: 歩行シミュレーション結果可視化実行
-    href: VisualizationEexcution.md
-- name: 歩行シミュレーション結果アセット機能
-  items:
-  - name: エージェント可視化機能
-    href: FunctionAgentVisualization.md
-  - name: 人流切り替え機能
-    href: FunctionScenarioChange.md
-  - name: ガイド機能
-    href: FunctionGuide.md
-  - name: ヒートマップ機能
-    href: FunctionHeatmap.md
-  - name: 時系列人流可視化機能
-    href: FunctionSlider.md
-  - name: グラフ機能
-    href: FunctionGraph.md
+  - name: 利用準備
+    items:
+    - name: 歩行シミュレーション結果可視化準備
+      href: VisualizationPreparation.md
+    - name: 歩行シミュレーション結果可視化実行
+      href: VisualizationEexcution.md
+  - name: シミュレーション結果の可視化
+    items:
+    - name: エージェント可視化機能
+      href: FunctionAgentVisualization.md
+    - name: 人流切り替え機能
+      href: FunctionScenarioChange.md
+    - name: ガイド機能
+      href: FunctionGuide.md
+  - name: シミュレーション結果の分析
+    items:
+    - name: ヒートマップ機能
+      href: FunctionHeatmap.md
+    - name: 時系列人流可視化機能
+      href: FunctionSlider.md
+    - name: グラフ機能
+      href: FunctionGraph.md
 - name: 参考資料
   items:
   - name: Unityのインストール方法

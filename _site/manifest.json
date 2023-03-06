@@ -28,7 +28,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/FunctionAgentVisualization.html",
-          "hash": "1VhnltalwGZAwe3DcB+g65frCvk+0Ti+9ipPtxkSVwI="
+          "hash": "VZh/i6AKsAGowXgATFKtFj8xtL/TyeUAiPYJAJYCaD0="
         }
       },
       "version": ""
@@ -39,7 +39,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/FunctionGraph.html",
-          "hash": "ggAo2c45F8D+wfFemghASTjgAoBSUVjOXlJw8a8QPnA="
+          "hash": "Ad9pWIgvBBzdBrd/KHIHGT58uU5RZfBpjZCkXte49xY="
         }
       },
       "version": ""
@@ -50,7 +50,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/FunctionGuide.html",
-          "hash": "DI9Q5MpwFccrfVCmJRYqb/Fvxag4DsidmukMQztuxHA="
+          "hash": "ZEOyFxKaPV3p2MJXeSuWODa6h5yuVHkGdVur/sivQf4="
         }
       },
       "version": ""
@@ -61,7 +61,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/FunctionHeatmap.html",
-          "hash": "jLLo4Ykbh0ZdfR7MoU17ORmvxXnLJoUeMTQQjDyOitI="
+          "hash": "XRFFCGqNw8QVX222q8NpdIjHtgO5NZjWRwBdIeB47pk="
         }
       },
       "version": ""
@@ -72,7 +72,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/FunctionScenarioChange.html",
-          "hash": "0wwxFF+PG+sfhU3Iqpoe+DP6zbJQHnf+6eUCRK+y3wI="
+          "hash": "EqVRn7OD2sc0/rE5DeJUfSde1h+jovb4h3nbTJXQ5RI="
         }
       },
       "version": ""
@@ -83,7 +83,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/FunctionSlider.html",
-          "hash": "l9KiuQzHspRluPHQc8RoV64IQuNKlrcK8gHuRlexMkc="
+          "hash": "t6BLk8IC/TXSwjw+0LcKns0FQXZASwhclDQHENZJ5nw="
         }
       },
       "version": ""
@@ -149,7 +149,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "4C6AftlO837WX/WcXuqGmrl9EE0WZogNpoRzNyDMoV0="
+          "hash": "GPQoHyhTGmB38n3RgrRpueGUVlVUe+xl6wbBY2IKmvE="
         }
       },
       "version": ""
@@ -180,6 +180,26 @@
       "output": {
         "resource": {
           "relative_path": "images/change_result.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/change_result_procedure_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/change_result_procedure_1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/change_result_procedure_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/change_result_procedure_2.png"
         }
       },
       "version": ""
@@ -260,6 +280,16 @@
       "output": {
         "resource": {
           "relative_path": "images/heatmap.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/heatmap_checkbox.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/heatmap_checkbox.png"
         }
       },
       "version": ""
@@ -406,10 +436,40 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/visualize-graph-whitemarker.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/visualize-graph-whitemarker.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/visualize-graph.png",
       "output": {
         "resource": {
           "relative_path": "images/visualize-graph.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/visualize-slider-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/visualize-slider-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/visualize-slider-textbox.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/visualize-slider-textbox.png"
         }
       },
       "version": ""
@@ -430,7 +490,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "uA2gORho6WOAqBaSXLwHuMZxM2RwrwYX3QQBRCTUBo8="
+          "hash": "zyUesYCZpT2EVq9DC6o+kOcVBbM0ck/c4VNY5J1cTFQ="
         }
       },
       "version": ""
@@ -441,7 +501,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "CoSdwWovua5TWgxnO+aracfC9st8QK89GPpPqAUgckg="
+          "hash": "ms3cH0ekxWYYFduSxf+82XfBBpwShD3veE6qsivSRYk="
         }
       },
       "version": ""

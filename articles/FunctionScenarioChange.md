@@ -15,3 +15,10 @@
     - 土日祝日_平常時
     - 土日祝日_イベント実施・広告非設置時
     - 土日祝日_イベント実施・広告設置時
+
+## 操作方法
+1. プルダウンボタンから確認したいシナリオを設定します。
+![](../images/change_result_procedure_1.png)
+
+2. 「Load Scenario」を押し、確認したいデータを読み込みます。
+![](../images/change_result_procedure_2.png)
