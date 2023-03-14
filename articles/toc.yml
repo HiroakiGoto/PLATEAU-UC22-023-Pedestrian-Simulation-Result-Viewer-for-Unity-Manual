@@ -3,15 +3,9 @@
 - name: 利用を開始する
   items:
   - name: インストール方法
-    items:
-    - name: インストール方法
-      href: Installation.md
+    href: Installation.md
   - name: 利用準備
-    items:
-    - name: 歩行シミュレーション結果可視化準備
-      href: VisualizationPreparation.md
-    - name: 歩行シミュレーション結果可視化実行
-      href: VisualizationEexcution.md
+    href: VisualizationPreparation.md
   - name: シミュレーション結果の可視化
     items:
     - name: エージェント可視化機能

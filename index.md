@@ -4,11 +4,8 @@
 なお、本アセットに3D都市モデルは含まれておりません。
 
 ![](./images/top-image.png)
-- インストール方法
-1. [インストール方法](./articles/Installation.md)
-- 利用準備
-1. [歩行シミュレーション結果可視化準備](./articles/VisualizationPreparation.md)
-2. [歩行シミュレーション結果可視化実行](./articles/VisualizationEexcution.md)
+-  [インストール方法](./articles/Installation.md)
+-  [利用準備](./articles/VisualizationPreparation.md)
 - シミュレーション結果の可視化
 1. [エージェント可視化機能](./articles/FunctionAgentVisualization.md) 
 2. [人流切り替え機能](./articles/FunctionScenarioChange.md) 
